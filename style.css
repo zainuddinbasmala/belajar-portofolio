@@ -60,6 +60,8 @@
     background-color: #edf7fa;
     padding: 15px 110px;
     margin-top: 50px;
+    border: 1px solid #102d46;
+    border-radius: 5px;
 }
 
 .post-recent {
@@ -135,8 +137,16 @@
     border-radius: 5px;
 }
 
+.work-content-detail h2 {
+    font: 300;
+    font-size: 22;
+    padding-bottom: 5px;
+}
 
+.work-content-detail label, .work-content-detail p {
+    padding-top: 10px;
 
+}
 
 
 
