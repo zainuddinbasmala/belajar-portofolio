@@ -126,7 +126,14 @@
     margin-bottom: 15px;
 }
 
-
+.work-content button {
+    background-color: #102d46;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
 
 
 
