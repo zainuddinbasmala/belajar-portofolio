@@ -20,16 +20,20 @@
     font-size: 20px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Start Hero */
 
 .hero {
     display: flex;
     justify-content: space-around;
+    border: 1px solid #399ef1;
+    border-radius: 5px;
+    padding: 20px;
     margin-top: 50px;
-}
-
-.hero-text {
-    width: 450px;
 }
 
 .hero-text h1 {
@@ -40,10 +44,11 @@
 .hero-text p {
     font-size: 18px;
     gap: 20px;
+    width: 500px;
 }
 
 .hero-text h1, .hero-text p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .hero-text button {
