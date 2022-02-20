@@ -10,7 +10,7 @@
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 20px;
 }
 
@@ -30,10 +30,11 @@
 .hero {
     display: flex;
     justify-content: space-around;
-    border: 1px solid #399ef1;
-    border-radius: 5px;
-    padding: 20px;
     margin-top: 50px;
+}
+
+.hero-text {
+    width: 450px;
 }
 
 .hero-text h1 {
@@ -43,8 +44,6 @@
 
 .hero-text p {
     font-size: 18px;
-    gap: 20px;
-    width: 500px;
 }
 
 .hero-text h1, .hero-text p {
@@ -63,7 +62,7 @@
 /* start post */
 .post {
     background-color: #edf7fa;
-    padding: 15px 15px;
+    padding: 15px 110px;
     margin-top: 50px;
     border: 1px solid #102d46;
     border-radius: 5px;
@@ -109,7 +108,7 @@
 /* start work */
 
 .work {
-    padding: 15px 100px;
+    padding: 15px 110px;
     margin-top: 5px;
 }
 
@@ -153,15 +152,6 @@
 
 }
 
-
-
-
-
-
-
-
-
-
 /* start footer */
 .footer {
     margin-top: 15px;
@@ -174,3 +164,39 @@
     margin-bottom: 10px;
     font-size: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        display:flex;
+        justify-content: center;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .post {
+        padding: 15px 15px;
+    }
+
+    .post-content {
+        display: flex;
+        flex-direction: column;
+    }
+}    
